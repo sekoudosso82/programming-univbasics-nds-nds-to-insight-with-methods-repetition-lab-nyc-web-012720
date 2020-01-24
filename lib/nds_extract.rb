@@ -25,8 +25,6 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  
-
   index = 0
   director_array = []
 
@@ -57,7 +55,7 @@ def total_gross(source)
   puts "********************************"
   
   # 2. list_of_directors: names provides an Array of directors names (use
-  direc_list = list_of_directors(direc_total)
+  direc_list = list_of_directors(source)
   puts "********************************array of directors"
   puts direc_list
   puts "********************************"
