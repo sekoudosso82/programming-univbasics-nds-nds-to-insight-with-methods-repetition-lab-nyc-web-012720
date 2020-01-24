@@ -30,10 +30,13 @@ def list_of_directors(source)
   puts "********************************"
 
   index = 0
-  director_array = []
+  # director_array = []
 
   while index < source.length do
-    director_array[index] = (source[:name][index])
+    # director_array[index] = (source[:name][index])
+    puts "********************************"
+    puts source
+    puts "********************************"
     index += 1
   end
 
