@@ -55,6 +55,11 @@ def total_gross(source)
   puts direc_total
   puts "********************************"
   # 2. list_of_directors: names provides an Array of directors names (use
+  direc_list = list_of_directors(direc_total)
+  puts "********************************"
+  puts direc_list
+  puts "********************************"
+  
   #
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
