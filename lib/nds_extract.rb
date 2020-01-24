@@ -35,7 +35,7 @@ def list_of_directors(source)
   while index < source.length do
     # director_array[index] = (source[:name][index])
     puts "********************************"
-    puts source
+    puts source[:name][index]
     puts "********************************"
     index += 1
   end
