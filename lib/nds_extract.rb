@@ -28,10 +28,10 @@ def list_of_directors(source)
   index = 0
   director_array = []
 
-  # while index < source.length do
-  #   director_array.push(source[:name][index])
-  #   index += 1
-  # end
+  while index < source.length do
+    director_array[index] = (source[:name][index])
+    index += 1
+  end
 
   director_array
 end
