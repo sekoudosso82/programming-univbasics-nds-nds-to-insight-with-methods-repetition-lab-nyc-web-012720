@@ -25,9 +25,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  puts "********************************"
-  puts source
-  puts "********************************"
+  
 
   index = 0
   director_array = []
@@ -44,6 +42,9 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  puts "********************************"
+  puts source
+  puts "********************************"
   # Write this implementation
   #
   # Should use methods:
