@@ -36,21 +36,10 @@ end
 
 def total_gross(source)
   
-  
-  # 1. directors_totals: returns a Hash of { dir_name => gross }
   direc_total = directors_totals(source)
   
-  puts "*********************** director and their gross"
-  puts direc_total
-  puts "********************************"
-  
-  # 2. list_of_directors: names provides an Array of directors names (use
   direc_list = list_of_directors(source)
-  puts "********************************array of directors"
-  puts direc_list
-  puts "********************************"
-  
-  
+ 
   total = 0
   
   direc_total.each_value {|value| total += value }
