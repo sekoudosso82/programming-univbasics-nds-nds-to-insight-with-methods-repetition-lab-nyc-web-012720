@@ -68,12 +68,8 @@ def total_gross(source)
   # return the total
   
   total = 0
-  index = 0
-
-  while index < direc_list.length do
-    total += direc_total[index].value
-    index += 1
-  end
+  
+  direc_total.each_value {|value| total += value }
 
   total
 end
