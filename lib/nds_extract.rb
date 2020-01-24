@@ -26,6 +26,9 @@ end
 
 def list_of_directors(source)
   puts "********************************"
+  puts source
+  puts "********************************"
+
   index = 0
   director_array = []
 
