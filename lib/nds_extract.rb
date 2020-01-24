@@ -51,12 +51,14 @@ def total_gross(source)
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   direc_total = directors_totals(source)
-  puts "********************************"
+  
+  puts "*********************** director and their gross"
   puts direc_total
   puts "********************************"
+  
   # 2. list_of_directors: names provides an Array of directors names (use
   direc_list = list_of_directors(direc_total)
-  puts "********************************"
+  puts "********************************array of directors"
   puts direc_list
   puts "********************************"
   
