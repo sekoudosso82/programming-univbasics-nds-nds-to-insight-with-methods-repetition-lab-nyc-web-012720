@@ -71,7 +71,7 @@ def total_gross(source)
   index = 0
 
   while index < direc_list.length do
-    total += direc_total[index]
+    total += direc_total[index].value
     index += 1
   end
 
